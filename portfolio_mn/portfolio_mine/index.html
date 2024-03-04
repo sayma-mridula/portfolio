@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d422b4fe66.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.webp" class="logo">
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <p>CS Undergrad Student</p>
+                <h1>Hello, This is <span>Sayma</span>
+                <br> studying at KUET</h1>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/about.jpg">
+                </div>
+                <div class="about-col-2">
+                     <h1>About Me</h1>
+                     <p>Hey,I am currently enrolled third year first term in the Department of Computer Science and Engineering at Khulna University of Engineering & Technology, where I am actively pursuing my studies and exploring various aspects of the field.
+                        I am proud to be part of the prestigious Khulna University of Engineering & Technology, where I am actively engaged in my coursetravelling and exploring various aspects of computer science.<br><br>
+                As I progress through my academic career, I am developing a strong foundation in computer science principles and technologies. I look forward to further opportunities for learning and growth, with a keen interest in the dynamic and evolving field of computer science.
+                     </p>
+                    
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>html,css,js,php</li>
+                            <li><span>App Development</span><br>java,kotlin</li>
+                            <li><span>Database System</span><br>oracle,mySql</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>video editing</span><br>video and all</li>
+                            <li><span>App Development</span><br>Building Android/IOS ap</li>
+                            <li><span>Web Development</span><br>Designing web site</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Undergrad In CSE</span><br>KUET</li>
+                            <li><span>HSC</span><br>Rangpur Govt College</li>
+                            <li><span>SSC</span><br>Police Lines School & College</li>
+                        </ul>
+                     </div>
+
+                 </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- ----services---- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                       Lets do some web design
+                        
+                        
+                        
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        
+                        lets do some UI
+                          
+                        
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>
+                        
+                        Lets do some app development.
+                        
+                        
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------- portfolio ------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <!--tangtadaang-->
+
+                    <img src="images/school.avif">\
+
+                    <div class="layer"></div>
+                    <h3>Student Management System</h3>
+                    <p>Visit Website</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+                <div class="work">
+                    <img src="images/ojp.jpg">
+                    <div class="layer"></div>
+                    <h3>Online Job Portal/h3>
+                    <p>Visit Website</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+                
+                <div class="work">
+                    <img src="images/hotel.avif">
+                    <div class="layer"></div>
+                    <h3>Online Hotel Booking</h3>
+                    <p>Visit Website</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!--Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>saymamridula521@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>01751045687</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sayma.mushsharat?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mridula_sayma?igsh=MWh2ZnZ5bm1wcHhoeA=="><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/mridula_sayma?igsh=MWh2ZnZ5bm1wcHhoeA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/sayma.mushsharat?mibextid=ZbWKwL"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/SQL Notes.pdf"download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class ="btn btn2">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+
+    </style>
+
+
+
+
+
+       
+    
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemeu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemeu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
